@@ -1,0 +1,20 @@
+name: UPJV
+type: theme
+description: 'Charte UPJV'
+core: '8.x'
+package: 'Bootstrap'
+libraries:
+  - 'upjv/base'
+regions:
+  upjv_area: 'UPJV area'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
