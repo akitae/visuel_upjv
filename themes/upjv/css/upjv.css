@@ -1,14 +1,20 @@
 body{
     margin: 0;
+    background-color: #DDDDDE;
 }
 
 /*Menu*/
+
+#menu_general {
+    display: block;
+    height: 57px;
+}
+
 #menu_general ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #DDDDDE;
 }
 
 #menu_general li {
@@ -17,10 +23,13 @@ body{
 
 #menu_general li a {
     display: block;
-    color: white;
+    color: #053160;
     text-align: center;
     padding: 16px;
+    padding-right: 26%;
+    padding-left: 26%;
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 /*#menu_general li a:hover {*/
@@ -29,11 +38,39 @@ body{
 
 #block-mainmenu{
     width: 80%;
-    /*float: left;*/
+    float: left;
 }
 
 #block-upjv-account-menu{
     width: 20%;
-    /*float: left;*/
+    float: left;
+}
+
+#block-upjv-account-menu li a{
+    padding-right: 10px;
+    padding-left: 10px;
 }
 /*End menu*/
+
+/*start block branding*/
+#block-upjv-branding{
+    background-color: #053160;
+    height: 114px;
+}
+
+#block-upjv-branding a img{
+    height: 114px;
+}
+
+#block-upjv-branding a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.2em;
+    padding:0;
+    float: left;
+}
+
+#block-upjv-branding a:nth-of-type(2){
+    margin-top:68px ;
+}
+/*end block branding*/
