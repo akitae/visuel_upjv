@@ -56,17 +56,17 @@ class __TwigTemplate_88bc452e796526e5b3f0e814fe6908840f54fc74db30afb03d30e3a3ad2
             echo "  ";
             $this->displayBlock('navbar', $context, $blocks);
         }
-        // line 99
+        // line 98
         echo "
 ";
-        // line 101
+        // line 100
         $this->displayBlock('main', $context, $blocks);
-        // line 166
+        // line 165
         echo "
 ";
-        // line 167
+        // line 166
         if ($this->getAttribute(($context["page"] ?? null), "footer", array())) {
-            // line 168
+            // line 167
             echo "  ";
             $this->displayBlock('footer', $context, $blocks);
         }
@@ -135,196 +135,195 @@ class __TwigTemplate_88bc452e796526e5b3f0e814fe6908840f54fc74db30afb03d30e3a3ad2
             // line 89
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "navigation", array()), "html", null, true));
             echo "
-
         </div>
       ";
         }
-        // line 93
+        // line 92
         echo "      ";
         if ( !$this->getAttribute(($context["navbar_attributes"] ?? null), "hasClass", array(0 => ($context["container"] ?? null)), "method")) {
-            // line 94
+            // line 93
             echo "        </div>
       ";
         }
-        // line 96
+        // line 95
         echo "    </header>
   ";
     }
 
-    // line 101
+    // line 100
     public function block_main($context, array $blocks = array())
     {
-        // line 102
+        // line 101
         echo "  <div role=\"main\" class=\"main-container ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["container"] ?? null), "html", null, true));
         echo " js-quickedit-main-content\">
     <div class=\"row\">
 
       ";
-        // line 106
+        // line 105
         echo "      ";
         if ($this->getAttribute(($context["page"] ?? null), "header", array())) {
-            // line 107
+            // line 106
             echo "        ";
             $this->displayBlock('header', $context, $blocks);
-            // line 112
+            // line 111
             echo "      ";
         }
-        // line 113
+        // line 112
         echo "
       ";
-        // line 115
+        // line 114
         echo "      ";
         if ($this->getAttribute(($context["page"] ?? null), "sidebar_first", array())) {
-            // line 116
+            // line 115
             echo "        ";
             $this->displayBlock('sidebar_first', $context, $blocks);
-            // line 121
+            // line 120
             echo "      ";
         }
-        // line 122
+        // line 121
         echo "
       ";
-        // line 124
+        // line 123
         echo "      ";
-        // line 125
-        $context["content_classes"] = array(0 => ((($this->getAttribute(        // line 126
-($context["page"] ?? null), "sidebar_first", array()) && $this->getAttribute(($context["page"] ?? null), "sidebar_second", array()))) ? ("col-sm-6") : ("")), 1 => ((($this->getAttribute(        // line 127
-($context["page"] ?? null), "sidebar_first", array()) && twig_test_empty($this->getAttribute(($context["page"] ?? null), "sidebar_second", array())))) ? ("col-sm-9") : ("")), 2 => ((($this->getAttribute(        // line 128
-($context["page"] ?? null), "sidebar_second", array()) && twig_test_empty($this->getAttribute(($context["page"] ?? null), "sidebar_first", array())))) ? ("col-sm-9") : ("")), 3 => (((twig_test_empty($this->getAttribute(        // line 129
+        // line 124
+        $context["content_classes"] = array(0 => ((($this->getAttribute(        // line 125
+($context["page"] ?? null), "sidebar_first", array()) && $this->getAttribute(($context["page"] ?? null), "sidebar_second", array()))) ? ("col-sm-6") : ("")), 1 => ((($this->getAttribute(        // line 126
+($context["page"] ?? null), "sidebar_first", array()) && twig_test_empty($this->getAttribute(($context["page"] ?? null), "sidebar_second", array())))) ? ("col-sm-9") : ("")), 2 => ((($this->getAttribute(        // line 127
+($context["page"] ?? null), "sidebar_second", array()) && twig_test_empty($this->getAttribute(($context["page"] ?? null), "sidebar_first", array())))) ? ("col-sm-9") : ("")), 3 => (((twig_test_empty($this->getAttribute(        // line 128
 ($context["page"] ?? null), "sidebar_first", array())) && twig_test_empty($this->getAttribute(($context["page"] ?? null), "sidebar_second", array())))) ? ("col-sm-12") : ("")));
-        // line 132
+        // line 131
         echo "      <section";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["content_attributes"] ?? null), "addClass", array(0 => ($context["content_classes"] ?? null)), "method"), "html", null, true));
         echo ">
 
         ";
-        // line 135
+        // line 134
         echo "        ";
         if ($this->getAttribute(($context["page"] ?? null), "highlighted", array())) {
-            // line 136
+            // line 135
             echo "          ";
             $this->displayBlock('highlighted', $context, $blocks);
-            // line 139
+            // line 138
             echo "        ";
         }
-        // line 140
+        // line 139
         echo "
         ";
-        // line 142
+        // line 141
         echo "        ";
         if ($this->getAttribute(($context["page"] ?? null), "help", array())) {
-            // line 143
+            // line 142
             echo "          ";
             $this->displayBlock('help', $context, $blocks);
-            // line 146
+            // line 145
             echo "        ";
         }
-        // line 147
+        // line 146
         echo "
         ";
-        // line 149
+        // line 148
         echo "        ";
         $this->displayBlock('content', $context, $blocks);
-        // line 153
+        // line 152
         echo "      </section>
 
       ";
-        // line 156
+        // line 155
         echo "      ";
         if ($this->getAttribute(($context["page"] ?? null), "sidebar_second", array())) {
-            // line 157
+            // line 156
             echo "        ";
             $this->displayBlock('sidebar_second', $context, $blocks);
-            // line 162
+            // line 161
             echo "      ";
         }
-        // line 163
+        // line 162
         echo "    </div>
   </div>
 ";
     }
 
-    // line 107
+    // line 106
     public function block_header($context, array $blocks = array())
     {
-        // line 108
+        // line 107
         echo "          <div class=\"col-sm-12\" role=\"heading\">
             ";
-        // line 109
+        // line 108
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "header", array()), "html", null, true));
         echo "
           </div>
         ";
     }
 
-    // line 116
+    // line 115
     public function block_sidebar_first($context, array $blocks = array())
     {
-        // line 117
+        // line 116
         echo "          <aside class=\"col-sm-3\" role=\"complementary\">
             ";
-        // line 118
+        // line 117
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "sidebar_first", array()), "html", null, true));
         echo "
           </aside>
         ";
     }
 
-    // line 136
+    // line 135
     public function block_highlighted($context, array $blocks = array())
     {
-        // line 137
+        // line 136
         echo "            <div class=\"highlighted\">";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "highlighted", array()), "html", null, true));
         echo "</div>
           ";
     }
 
-    // line 143
+    // line 142
     public function block_help($context, array $blocks = array())
     {
-        // line 144
+        // line 143
         echo "            ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "help", array()), "html", null, true));
         echo "
           ";
     }
 
-    // line 149
+    // line 148
     public function block_content($context, array $blocks = array())
     {
-        // line 150
+        // line 149
         echo "          <a id=\"main-content\"></a>
           ";
-        // line 151
+        // line 150
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "content", array()), "html", null, true));
         echo "
         ";
     }
 
-    // line 157
+    // line 156
     public function block_sidebar_second($context, array $blocks = array())
     {
-        // line 158
+        // line 157
         echo "          <aside class=\"col-sm-3\" role=\"complementary\">
             ";
-        // line 159
+        // line 158
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "sidebar_second", array()), "html", null, true));
         echo "
           </aside>
         ";
     }
 
-    // line 168
+    // line 167
     public function block_footer($context, array $blocks = array())
     {
-        // line 169
+        // line 168
         echo "    <footer class=\"footer ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["container"] ?? null), "html", null, true));
         echo "\" role=\"contentinfo\">
       ";
-        // line 170
+        // line 169
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "footer", array()), "html", null, true));
         echo "
     </footer>
@@ -343,7 +342,7 @@ class __TwigTemplate_88bc452e796526e5b3f0e814fe6908840f54fc74db30afb03d30e3a3ad2
 
     public function getDebugInfo()
     {
-        return array (  328 => 170,  323 => 169,  320 => 168,  313 => 159,  310 => 158,  307 => 157,  301 => 151,  298 => 150,  295 => 149,  288 => 144,  285 => 143,  278 => 137,  275 => 136,  268 => 118,  265 => 117,  262 => 116,  255 => 109,  252 => 108,  249 => 107,  243 => 163,  240 => 162,  237 => 157,  234 => 156,  230 => 153,  227 => 149,  224 => 147,  221 => 146,  218 => 143,  215 => 142,  212 => 140,  209 => 139,  206 => 136,  203 => 135,  197 => 132,  195 => 129,  194 => 128,  193 => 127,  192 => 126,  191 => 125,  189 => 124,  186 => 122,  183 => 121,  180 => 116,  177 => 115,  174 => 113,  171 => 112,  168 => 107,  165 => 106,  158 => 102,  155 => 101,  150 => 96,  146 => 94,  143 => 93,  136 => 89,  131 => 87,  127 => 85,  124 => 84,  120 => 81,  117 => 79,  115 => 78,  113 => 77,  111 => 76,  109 => 75,  107 => 74,  105 => 73,  103 => 72,  101 => 71,  98 => 69,  92 => 67,  90 => 66,  85 => 65,  83 => 62,  82 => 61,  81 => 59,  79 => 58,  76 => 57,  70 => 168,  68 => 167,  65 => 166,  63 => 101,  60 => 99,  56 => 57,  54 => 56,  52 => 54,);
+        return array (  327 => 169,  322 => 168,  319 => 167,  312 => 158,  309 => 157,  306 => 156,  300 => 150,  297 => 149,  294 => 148,  287 => 143,  284 => 142,  277 => 136,  274 => 135,  267 => 117,  264 => 116,  261 => 115,  254 => 108,  251 => 107,  248 => 106,  242 => 162,  239 => 161,  236 => 156,  233 => 155,  229 => 152,  226 => 148,  223 => 146,  220 => 145,  217 => 142,  214 => 141,  211 => 139,  208 => 138,  205 => 135,  202 => 134,  196 => 131,  194 => 128,  193 => 127,  192 => 126,  191 => 125,  190 => 124,  188 => 123,  185 => 121,  182 => 120,  179 => 115,  176 => 114,  173 => 112,  170 => 111,  167 => 106,  164 => 105,  157 => 101,  154 => 100,  149 => 95,  145 => 93,  142 => 92,  136 => 89,  131 => 87,  127 => 85,  124 => 84,  120 => 81,  117 => 79,  115 => 78,  113 => 77,  111 => 76,  109 => 75,  107 => 74,  105 => 73,  103 => 72,  101 => 71,  98 => 69,  92 => 67,  90 => 66,  85 => 65,  83 => 62,  82 => 61,  81 => 59,  79 => 58,  76 => 57,  70 => 167,  68 => 166,  65 => 165,  63 => 100,  60 => 98,  56 => 57,  54 => 56,  52 => 54,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */

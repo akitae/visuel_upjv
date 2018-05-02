@@ -1,7 +1,7 @@
 <?php
 
-/* core/themes/classy/templates/navigation/vertical-tabs.html.twig */
-class __TwigTemplate_17de58add493bea9451c19385f1af79c69db195237759f08516bdba08ca7bd5a extends Twig_Template
+/* core/themes/classy/templates/form/confirm-form.html.twig */
+class __TwigTemplate_9bd8404cf18ea2c9f4fb38bf5193ed1303913d1da4d1de909f9885714943b680 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -40,17 +40,14 @@ class __TwigTemplate_17de58add493bea9451c19385f1af79c69db195237759f08516bdba08ca
         }
 
         // line 13
-        echo "<div";
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["attributes"] ?? null), "setAttribute", array(0 => "data-vertical-tabs-panes", 1 => true), "method"), "html", null, true));
-        echo ">";
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["children"] ?? null), "html", null, true));
-        echo "</div>
+        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["form"] ?? null), "html", null, true));
+        echo "
 ";
     }
 
     public function getTemplateName()
     {
-        return "core/themes/classy/templates/navigation/vertical-tabs.html.twig";
+        return "core/themes/classy/templates/form/confirm-form.html.twig";
     }
 
     public function isTraitable()
@@ -73,6 +70,6 @@ class __TwigTemplate_17de58add493bea9451c19385f1af79c69db195237759f08516bdba08ca
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "core/themes/classy/templates/navigation/vertical-tabs.html.twig", "/var/www/drupal/core/themes/classy/templates/navigation/vertical-tabs.html.twig");
+        return new Twig_Source("", "core/themes/classy/templates/form/confirm-form.html.twig", "/var/www/drupal/core/themes/classy/templates/form/confirm-form.html.twig");
     }
 }
