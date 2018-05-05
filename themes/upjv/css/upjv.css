@@ -74,3 +74,20 @@ body{
     margin-top:68px ;
 }
 /*end block branding*/
+
+/*Bloc à l'interieur des pages*/
+.sous-contenu{
+    background-color: white;
+    margin-bottom: 31px;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: solid;
+    border-width: thin;
+}
+
+.sous-contenu h2{
+    background-color: #00A4D6;
+    padding: 15px;
+    color: white;
+    margin-right: -8px;
+}
