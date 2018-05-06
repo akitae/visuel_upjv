@@ -21,15 +21,15 @@ class __TwigTemplate_47f1d430c9bdbad605ce452da60945887884131dd8cfa71971b464da2ce
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("if" => 23);
-        $filters = array("t" => 24);
-        $functions = array("dump" => 21, "path" => 24);
+        $tags = array("if" => 21);
+        $filters = array("t" => 22);
+        $functions = array("path" => 22);
 
         try {
             $this->env->getExtension('Twig_Extension_Sandbox')->checkSecurity(
                 array('if'),
                 array('t'),
-                array('dump', 'path')
+                array('path')
             );
         } catch (Twig_Sandbox_SecurityError $e) {
             $e->setSourceContext($this->getSourceContext());
@@ -56,31 +56,30 @@ class __TwigTemplate_47f1d430c9bdbad605ce452da60945887884131dd8cfa71971b464da2ce
     <div id=\"block-upjv-branding\">
         ";
         // line 21
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, twig_var_dump($this->env, $context, ($context["page"] ?? null)), "html", null, true));
-        echo "
-        TEST
-        ";
-        // line 23
         if (($context["site_logo"] ?? null)) {
-            // line 24
+            // line 22
             echo "            <a class=\"logo navbar-btn pull-left\" href=\"";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar($this->env->getExtension('Drupal\Core\Template\TwigExtension')->getPath("<front>")));
             echo "\" title=\"";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar(t("Home")));
             echo "\" rel=\"home\">
                 <img src=\"";
-            // line 25
+            // line 23
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["site_logo"] ?? null), "html", null, true));
             echo "\" alt=\"";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar(t("Home")));
             echo "\" />
+                ";
+            // line 24
+            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["block"] ?? null), "html", null, true));
+            echo "
             </a>
         ";
         }
-        // line 28
+        // line 27
         echo "        ";
         if (($context["site_name"] ?? null)) {
-            // line 29
+            // line 28
             echo "            <a class=\"name navbar-brand\" href=\"";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar($this->env->getExtension('Drupal\Core\Template\TwigExtension')->getPath("<front>")));
             echo "\" title=\"";
@@ -90,16 +89,16 @@ class __TwigTemplate_47f1d430c9bdbad605ce452da60945887884131dd8cfa71971b464da2ce
             echo "</a>
         ";
         }
-        // line 31
+        // line 30
         echo "        ";
         if (($context["site_slogan"] ?? null)) {
-            // line 32
+            // line 31
             echo "            <p class=\"navbar-text\">";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["site_slogan"] ?? null), "html", null, true));
             echo "</p>
         ";
         }
-        // line 34
+        // line 33
         echo "    </div>
 ";
     }
@@ -116,7 +115,7 @@ class __TwigTemplate_47f1d430c9bdbad605ce452da60945887884131dd8cfa71971b464da2ce
 
     public function getDebugInfo()
     {
-        return array (  103 => 34,  97 => 32,  94 => 31,  84 => 29,  81 => 28,  73 => 25,  66 => 24,  64 => 23,  59 => 21,  55 => 19,  52 => 18,  11 => 1,);
+        return array (  102 => 33,  96 => 31,  93 => 30,  83 => 28,  80 => 27,  74 => 24,  68 => 23,  61 => 22,  59 => 21,  55 => 19,  52 => 18,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */

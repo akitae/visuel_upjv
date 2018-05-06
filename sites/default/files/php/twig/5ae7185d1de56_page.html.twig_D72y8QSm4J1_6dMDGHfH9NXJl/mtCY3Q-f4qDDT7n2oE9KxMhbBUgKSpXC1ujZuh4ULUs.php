@@ -247,8 +247,8 @@ class __TwigTemplate_88bc452e796526e5b3f0e814fe6908840f54fc74db30afb03d30e3a3ad2
     public function block_header($context, array $blocks = array())
     {
         // line 106
-        echo "          <div class=\"col-sm-12\" role=\"heading\">
-            ";
+        echo "          <div class=\"col-sm-2\" role=\"heading\">
+              ";
         // line 107
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "header", array()), "html", null, true));
         echo "
