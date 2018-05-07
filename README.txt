@@ -1,4 +1,7 @@
 
+POUR UTILISATION AVEC VAGRANT, RENOMMER LE PROJET DRUPAL
+--------------------------------------------------------
+
 CONTENTS OF THIS FILE
 ---------------------
 
