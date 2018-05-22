@@ -3,6 +3,7 @@ type: theme
 description: 'Charte UPJV'
 core: '8.x'
 package: 'Bootstrap'
+base theme: 'bootstrap'
 libraries:
   - 'upjv/base'
 regions:
@@ -10,6 +11,7 @@ regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
+  top_image: 'Top image'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
