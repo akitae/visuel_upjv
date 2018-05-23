@@ -67,8 +67,9 @@ table{
 
 .page-header span{
     float: right;
-    margin-top: 7%;
+    margin-top: 8%;
     margin-right: 10px;
+    font-size: 0.9em;
 }
 
 .navbar-brand{
