@@ -91,3 +91,38 @@ table{
 .contact-message-feedback-form{
     margin-top: 32px;
 }
+
+/* Partenaire */
+.comment-forbidden{
+    display: none!important;
+}
+
+.js-comment footer a{
+    display: none;
+}
+
+.article[about="/partenariat"] section[rel="schema:comment"] h2{
+    display: none;
+}
+
+.article[about="/partenariat"] h3{
+    background-color: #00A4D6;
+    color: white;
+    padding: 5px 5px 5px 20px;
+}
+
+.article[about="/partenariat"] h3 a{
+    list-style: none;
+    color:white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.article[about="/partenariat"] article div{
+    background-color: white;
+}
+
+.field--name-comment-body {
+    margin-left: 15px;
+    margin-right: 15px;
+}
