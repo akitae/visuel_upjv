@@ -86,3 +86,8 @@ table{
     padding-right: 20px;
     padding-left: 20px;
 }
+
+/*Contact */
+.contact-message-feedback-form{
+    margin-top: 32px;
+}
